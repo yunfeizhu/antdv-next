@@ -28,6 +28,13 @@ const config = antfu(
     ],
   },
   {
+    files: ['reproductions/table-preserved-selection/package.json'],
+    rules: {
+      // This standalone reproduction installs a published version with npm.
+      'pnpm/json-enforce-catalog': 0,
+    },
+  },
+  {
     files: [
       'docs/**/*',
       'tests/**/*',
