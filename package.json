@@ -1,0 +1,19 @@
+{
+  "name": "antdv-tree-controlled-expansion-reproduction",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "antdv-next": "1.8.3",
+    "vue": "3.5.45"
+  },
+  "devDependencies": {
+    "vite": "8.3.0"
+  },
+  "overrides": {
+    "@v-c/tree": "1.2.6"
+  }
+}

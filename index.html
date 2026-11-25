@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tree 与 DirectoryTree 受控展开状态</title>
+  <style>
+    body { margin: 0; background: #f5f6f8; color: #202124; font: 14px/1.7 Inter, system-ui, sans-serif; }
+    main { box-sizing: border-box; max-width: 920px; margin: 40px auto; padding: 28px; border-radius: 10px; background: #fff; }
+    h1 { margin: 0 0 12px; font-size: 23px; }
+    h2 { margin: 0 0 14px; font-size: 17px; }
+    p { margin: 10px 0; }
+    code { font-family: ui-monospace, monospace; }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
+    .trees { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    section { padding: 18px; border: 1px solid #e2e5e9; border-radius: 8px; }
+    .state { margin-top: 18px; padding: 12px 16px; border-radius: 6px; background: #f5f6f8; }
+    @media (max-width: 650px) { main { margin: 12px; padding: 20px; } .trees { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
